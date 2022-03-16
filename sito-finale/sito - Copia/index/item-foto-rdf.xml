@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:dc= "http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms/" 
+xmlns:arco="https://w3id.org/arco/ontology/arco"
+xmlns:a-cd="https://w3id.org/arco/ontology/context-description/">
+
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/PhotographicHeritage/080062072">  
+    <dc:title>Fotografie della marina, delle grotte e del centro storico di Castro</dc:title>
+    <dc:creator>Lazzari, Antonio</dc:creator>
+    <dcterms:creator rdf:resource="http://viaf.org/viaf/309681161"/>
+    <dc:date>1950-1956</dc:date>
+    <dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=2018"/>
+    <dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=3182"/>
+    <dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=17448"/>
+    <dc:description>Il servizio fotografico in esame costituito da 27 fotofrafie, è realizzato da Antonio Lazzari tra il 1950 e il 1956, documenta la marina di	castro e il centro storico del paese.</dc:description>
+    <dc:publisher>Istituto Centrale per il Catalogo e la Documentazione</dc:publisher>
+    <dc:type>negativo servizio </dc:type>      
+    <arco:numberOfElements>27</arco:numberOfElements>
+    <rdfs:label xml:lang="it">Bene fotografico</rdfs:label>      
+    <dc:format>vetro</dc:format>
+    <dc:format>gelatina ai salid'argento</dc:format>
+    <arco:regionIdentifier>08</arco:regionIdentifier>
+    <dc:identifier>080062072 </dc:identifier>
+    <arco:uniqueIdentifier>080062072</arco:uniqueIdentifier>
+    <dc:source>https://catalogo.beniculturali.it/detail/PhotographicHeritage/080062072</dc:source>
+    <a-cd:isArchivalUnitMemberOf>https://w3id.org/arco/resource/ArchivalFonds/soprintendenza-archeologia-belle-arti-e-paesaggio-per-le-province-di-brindisi-e-lecce-fondo-negativi-soprintendenza</a-cd:isArchivalUnitMemberOf>
+    <dc:languge>it</dc:languge>
+    <dc:coverage>Castro (LE)</dc:coverage>
+    <dc:rights>Proprietà dello Stato</dc:rights>
+    <a-cd:hasOwner>Ministero Dei Beni E Delle Attività culturali e Del Turismo</a-cd:hasOwner>
+    <dc:coverage>Castro (LE)</dc:coverage>
+    <dc:language>it</dc:language>
+  </rdf:Description>
+
+
+</rdf:RDF>

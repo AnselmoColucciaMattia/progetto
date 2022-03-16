@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="it">
+<!--HEAD-->
+
+<head>
+	<!-- charset-->
+	<meta charset="utf-8">
+
+	<!-- metadati DC -->
+	<meta name="DC.Title" content="Museo Archeologico di Castro">
+	<meta name="DC.Creator" content="Anselmo Coluccia">
+	<meta name="DC.Creator.PersonalName.Address" content="anselmo.coluccia@studio.unibo.it">
+	<meta name="DC.Subject" content="Museo Archeologico">
+	<meta name="DC.Subject" content="MAR">
+	<meta name="DC.Subject" content="Valorizzazione">
+	<meta name="DC.Subject" content="Divulgazione">
+	<meta name="DC.Subject" content="Digitale">
+	<meta name="DC.Description"
+		content="Il sito web del Museo Archeologico di Castro vuole essere un progetto di valorizzazione digitale e divulgazione delle scoperte e dei reperti rinvenuti nel territorio di Castro. L'intento è realizzare sia un archivio che contenga versioni digitali delle opere preservate nel museo in maniera tale che siano maggiormente fruibili e raggiungibili dal pubblico.">
+	<meta name="DC.Publisher"
+		content="Ficlit - Dipartimento di Filologia Classica e Italianistica - Università di Bologna">
+	<meta name="DC.Contributor" content="Anselmo Coluccia">
+	<meta name="DC.Date" content="09/12/2021">
+	<meta name="DC.Type" content="Sito web">
+	<meta name="DC.Format" content="HTML/CSS/JS">
+	<link rel="DC.Identifier" href="">
+	<meta name="DC.Source" content="https://timeline.knightlab.com/">
+	<meta name="DC.Source" content="http://www.iccd.beniculturali.it/it/sigec-web">
+	<meta name="DC.Language" content="it">
+	<meta name="DC.Relation" content="https://www.museoarcheologicocastro.it/">
+	<meta name="DC.Coverage" content="http://vocab.getty.edu/page/tgn/7044369">
+	<meta name="DC.Rights" content="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+
+	<!--titolo risorsa finestra browser-->
+	<title>MAR - Museo Archeologico di Castro</title>
+
+	<!--Bootstrap CSS-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!--Customized CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--Bootstrap icons-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+	<!--Google Font Trirong-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+</head>
+
+<!--BODY-->
+
+<body>
+	<!--Header-->
+	<header>
+		<!--Navbar-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+	  
+			<div class="contenitore-logo-titolo">
+			  <a class="navbar-brand logo" href="index.html"><img src="img/index/logo.png" alt="logo del progetto"></a>
+			  <a class="navbar-brand titolonav" href="index.html"><b>MUSEO ARCHEOLOGICO di CASTRO</b></a>
+			</div>
+	  
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="catalogo.html">Catalogo</a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle esplora-1" href="#" role="button" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false">
+					Esplora
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="ViaggioEnea.html">Viaggio di Enea</a>
+					<a class="dropdown-item" href="LTempo.html">Linea del tempo</a>
+				  </div>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false">
+					Approfondisci
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Le recenti scoperte dell'Archeologia a Castro</a>
+					<a class="dropdown-item" href="#">Castro, Atena, Enea (e Francesco D'Andria)</a>
+					<a class="dropdown-item" href="#">Un geologo umanista</a>
+				  </div>
+				</li>
+			  </ul>
+			  <form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
+			  </form>
+			</div>
+		  </nav>
+		</header>
+
+	<!--Carosello-->
+	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+			<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+		</ol>
+
+		<div class="carousel-inner">
+
+			<div class="carousel-item active img1">
+				<img src="img/index/santuario.jpg" class="d-block w-100" alt="Statuetta in bronzo di Atena">
+				<div class="carousel-caption d-none d-md-block">
+					<h3 class="trirong"><em>MUSEO ARCHEOLOGICO di CASTRO</em></h3>
+					<p>Il MAR di Castro racconta vicende che si svolgono lungo vari millenni, sin dalla più remota
+						Preistoria</p>
+					<a ref="#progetto"><button type="button" class="btn bottone-greyblue">Scopri il
+							progetto</button></a>
+					<a href="catalogo.html"><button type="button" class="btn bottone-greyblue">Sfoglia il
+							Catalogo</button></a>
+				</div>
+			</div>
+			<div class="carousel-item img2">
+				<img src="img/index/approdo.jpg" class="d-block w-100" alt="approdo di Enea">
+				<div class="carousel-caption d-none d-md-block">
+					<h3 class="trirong">Esplora</h3>
+					<p>Scopri le nostre risorse didattiche multimediali</p>
+					<a href="ViaggioEnea.html"><button type="button" class="btn bottone-greyblue">Viaggio di Enea</button></a>
+					<a href="LTempo.html"><button type="button" class="btn bottone-greyblue">Linea del tempo</button></a>
+				</div>
+			</div>
+			<div class="carousel-item img3">
+				<img src="img/index/scritta.jpg" class="d-block w-100" alt="Scritta su pietra">
+				<div class="carousel-caption d-none d-md-block">
+					<h3 class="trirong">Approfondisci</h3>
+					<p>Approfondisci e tieniti aggiornato sulle ultime scoperte e ritrovamenti.</p>
+					<a href="..."><button type="button" class="btn bottone-greyblue">Le recenti scoperte
+							dell'Archeologia a Castro</button></a>
+					<a href="..."><button type="button" class="btn bottone-greyblue">Castro, Atena, Enea (e Francesco
+							D'Andria)</button></a>
+					<a href="..."><button type="button" class="btn bottone-greyblue">Un geologo umanista</button></a>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+	<!--Storia del Mar-->
+	<section class="sezione-progetto padding-section background-ice text-dark">
+
+		<div class="container-fluid pl-20 pr-20">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<h3 id="progetto" class="justify">Storia del MAR</h3>
+					<p class="justify"><em><b class="trirong">Il MAR di Castro nasce per far conoscere ai cittadini del
+								Salento ed ai turisti gli straordinari ritrovamenti effettuati nel corso degli scavi che
+								hanno portato alla luce il Santuario di Minerva, cantato da Virgilio nel libro III
+								dell’Eneide, in cui si descrive l’arrivo in Italia dell’eroe troiano. Gli scavi sono
+								recenti, iniziati nel 2000, ma hanno fornito già tanti reperti e informazioni sulla
+								storia di Castro e del Mediterraneo. Nel 2009 fu organizzata una Mostra nei locali del
+								Castello Aragonese; il susseguirsi delle attività di scavo e la scoperta di reperti di
+								straordinario valore portò alla decisione di creare un vero Museo Archeologico che
+								racconti la storia di Castro, dalle origini preistoriche ai nostri giorni, e del
+								santuario di Atena-Minerva che ha dato il nome di Castrum Minervae alla cittadina.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="padding-section background-arca text-dark">
+
+		<div class="container-fluid ">
+			<div class="row">
+
+				<div class="col-md-9 col-sm-12 col-xs-12">
+					<div class="card mt-7 background-ice opacity text-dark">
+						<div class="card-body storia-inbreve mt-5 mb-5">
+							<h3 class="card-title">Il Castello</h3>
+							<p class="card-text justify">L'impianto più antico dell'attuale castello aragonese risale,
+								con ogni probabilità, al XII-XIII secolo e fu costruito sui resti della rocca bizantina.
+								Il castello, a pianta rettangolare con quattro torri angolari di varia forma e
+								dimensione, risulta composto da un ingresso protetto da un fossato e da ponte levatoio,
+								ormai rimosso. Entrando si trova un cortile anticamente destinato al deposito di
+								prodotti agricoli che venivano commercializzati, e un'ampia scala, ora scomparsa, con la
+								quale si accedeva ai piani superiori. Nel cortile si affacciano inoltre le porte delle
+								stanze del piano terra. La stanza di ponente si affaccia sul mare ed è dotata di un
+								accesso esterno che porta agli orti sottostanti.</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-3 col-sm-12 col-xs-12">
+					<aside>
+						<div class="card background-ice text-dark">
+							<img src="img/autore/lazzari.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h6 class="card-title">l'eredità di Antonio Lazzari</h6>
+								<p class="card-text justify"><em>Antonio Lazzari (Castro, 5 agosto 1905 – Napoli, 20
+										luglio 1979) è stato un geologo e accademico italiano.</em></p>
+								<p class="center">Leggi la biografia completa su <a
+										href="https://it.wikipedia.org/wiki/Antonio_Lazzari_(geologo)"
+										title="Leggi su Wikipedia">Wikipedia</a></p>
+							</div>
+						</div>
+					</aside>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+	<!--SECTION STRUMENTI-->
+	<section class="padding-section background-peach">
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+
+					<h3 class="text-dark center">Strumenti di esplorazione</h3>
+				</div>
+			</div>
+
+			<div class="row strumenti">
+
+				<div class="col-md-4">
+					<div class="card strumenti background-ice text-dark" style="width: 18rem;">
+						<div class="card-body">
+							<h4 class="card-title"><i class="bi bi-book"></i> Catalogo </h4>
+							<p class="card-text">Il <b>catalogo</b> del <em><b class="trirong">MAR</b></em> raccoglie
+								oggetti eterogenei che costituiscono le varie sezioni del museo, le fonti relative e
+								alla vita di celebri cittadini.</p>
+							<a href="catalogo.html" class="card-link"><button type="button"
+									class="bottone-strumenti1 btn btn-primary">Sfoglia il catalogo</button></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card strumenti background-ice text-dark" style="width: 18rem;">
+						<div class="card-body">
+							<h4 class="card-title"><i class="bi bi-search"></i>il Viaggio di Enea</h4>
+							<p class="card-text">Per conoscere le tappe del viaggio <b>clicca</b> sull' <b>immagine</b>
+								e scopri gli episodi e i soggetti.</p>
+							<a href="ViaggioEnea.html" class="card-link"><button type="button"
+									class="bottone-strumenti2 btn btn-primary">comincia il viaggio </button></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card strumenti background-ice text-dark" style="width: 18rem;">
+						<div class="card-body">
+							<h4 class="card-title"><i class="bi bi-arrow-right-square"></i> Percorso </h4>
+							<p class="card-text">Il museo si articola in diverse sezioni che riguardano gli sviluppi del
+								territorio dalla preistoria all'età contemporanea. Conosci la storia seguendo il nostro
+								<b>Percorso</b></p>
+							<a href="LTempo.html" class="card-link"><button type="button"
+									class="bottone-strumenti3 btn btn-primary">Esplora il museo</button></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<!--section APPROFONDISCI -->
+	<section class="padding-section background-ice">
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<h3 class="text-dark center">Approfondimenti</h3>
+				</div>
+			</div>
+
+			<div class="row strumenti">
+
+				<div class="col-md-4">
+					<div class="card strumenti background-ice text-dark" style="width: 18rem;">
+						<div class="card-body">
+							<h4 class="card-title"><i class="bi bi-lock"></i>Le recenti scoperte dell'Archeologia a
+								Castro</h4>
+							<p class="card-text approfondimento1">Lo scavo di località Capanne ha fornito uno spaccato
+								delle attività quotidiane e delle reti commerciali in cui Castro era inserita durante
+								l’età bizantina. Infatti, tra i depositi sovrapposti che avevano parzialmente interrato
+								l’accesso della porta urbica di età ellenistica, sono stati identificati anche butti di
+								manufatti rotti o deteriorati e rifiuti organici (ossa animali etc.) stratificatisi nel
+								corso dell’VIII e IX secolo d.C.</p>
+							<a href="#" class="card-link"><button type="button"
+									class="bottone-approfondimenti3 btn btn-primary">Scopri di più</button></a>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-md-4">
+					<div class="card strumenti background-ice text-dark" style="width: 18rem;">
+						<div class="card-body">
+							<h4 class="card-title"><i class="bi bi-camera2"></i>Castro, Atena, Enea (e Francesco
+								D'Andria)</h4>
+							<p class="card-text approfondimento2">Ci illustra gli importanti scavi in corso dal 2000,
+								che hanno portato alla scoperta di una porzione delle mura messapiche, con una
+								straordinaria porta a corridoio, poi riprese dalle mura aragonesi, i resti di un
+								santuario di Atena-Minerva: forse quello di cui parla Virgilio nell'Eneide, il luogo nel
+								quale Enea sarebbe sbarcato in Italia.</p>
+							<a href="#" class="card-link"><button type="button"
+									class="bottone-approfondimenti1 btn btn-primary">Scopri di più</button></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card strumenti background-ice text-dark" style="width: 18rem;">
+						<div class="card-body">
+							<h4 class="card-title"><i class="bi bi-globe2"></i> Un geologo umanista</h4>
+							<p class="card-text approfondimento3">"Chi non arde, non incendia" – questo, di fatto, era
+								il suo motto. La ricerca, dunque, come autentica passione. Passione che dà all'uomo un
+								significato nella vita. Questo saggio descrive e illustra la figura di Antonio Lazzari,
+								"il geologo umanista" al quale è intitolato il Museo Archeologico di Castro.</p>
+							<a href="#" class="card-link"><button type="button"
+									class="bottone-approfondimenti2 btn btn-primary">Scopri di più</button></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!--SECTION INFO-->
+
+	<section class="padding-section">
+		<div class="container-fluid localizzazione-iframe">
+			<div class="row">
+
+				<div class="col-md-8">
+					<div class="card mt-6 background-ice">
+						<div class="card-body">
+							<h5 class="card-title"><i class="bi bi-geo-alt"></i> Localizzazione</h5>
+							<p class="card-text">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.1290324937795!2d18.42481111521837!3d40.00556527941502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13441334abf8cc13%3A0xb055b055e3afc3f2!2sCastello%20Aragonese%20e%20Museo%20Archeologico%20di%20Castro!5e0!3m2!1sit!2sit!4v1647371632183!5m2!1sit!2sit"
+									width="700" height="450" style="border:0;" allowfullscreen=""
+									loading="lazy"></iframe>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<aside>
+						<div class="card mt-geo background-ice">
+							<div class="card-body">
+								<h5 class="card-title"><i class="bi bi-info-square"></i> Scopri il MES</h5>
+								<p class="card-text"><iframe src="https://www.museoarcheologicocastro.it/" height="auto"
+										width="100%" title="Sitoweb del Museo Archeologico di Castro"></iframe></p>
+								<p>Visita il<a href="https://www.museoarcheologicocastro.it/"> sito web</a> del Mar</p>
+							</div>
+						</div>
+						<div class="tornasu mt-10 background-arca"><a href="#navbar"><button type="button"
+									class=" bottone-tornasu btn btn-light background-ice"><b>Torna su <i
+											class="bi bi-arrow-up-circle"></i></b></button></a></div>
+
+					</aside>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<!--footer-->
+	<footer>
+
+		<div class="container-fluid footer">
+
+			<div class="row-footer">
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<p class="firma1 trirong"><em><b>Museo Archeologico di Castro</b></em></p>
+					<p>Il MAR di Castro racconta vicende che si svolgono lungo vari millenni, sin dalla più remota
+						Preistoria</p>
+					<p><a href="#" class="text-dark"><u>Scopri di più sul progetto</u></a></p>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12 center">
+					<span class="logo-footer center"><img src="img/index/logo.png" alt="logo del progetto"></span>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<p class="firma2" id="credits-footer">&copy; Anselmo Coluccia</p>
+					<p>Italianistica, Università di Bologna, 2021-2022</p>
+					<p><a href="#" class="text-dark"><u>Contatti</u></a></p>
+				</div>
+
+			</div>
+
+			<div class="row-footer mt-10">
+				<div class="col-md-12 col-sm-12 col-xs-12 center">
+					<u><a href="https://creativecommons.org/licenses/by-nc/4.0/" class="text-dark">Licenza Creative
+							Commons BY - NC 4.0 International</a></u>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+</body>
+
+
+</html>
