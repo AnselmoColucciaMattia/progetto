@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="it">
+<!--HEAD-->
+
+<head>
+    <!-- charset-->
+    <meta charset="utf-8">
+
+    <!-- metadati DC -->
+    <meta name="DC.Title" content="Museo Archeologico di Castro">
+    <meta name="DC.Creator" content="Anselmo Coluccia">
+    <meta name="DC.Creator.PersonalName.Address" content="anselmo.coluccia@studio.unibo.it">
+    <meta name="DC.Subject" content="Museo Archeologico">
+    <meta name="DC.Subject" content="MAR">
+    <meta name="DC.Subject" content="Valorizzazione">
+    <meta name="DC.Subject" content="Divulgazione">
+    <meta name="DC.Subject" content="Digitale">
+    <meta name="DC.Description" content="Il sito web del Museo Archeologico di Castro vuole essere un progetto di valorizzazione digitale e divulgazione delle scoperte e dei reperti rinvenuti nel territorio di Castro. L'intento è realizzare sia un archivio che contenga versioni digitali delle opere preservate nel museo in maniera tale che siano maggiormente fruibili e raggiungibili dal pubblico.">
+    <meta name="DC.Publisher" content="Ficlit - Dipartimento di Filologia Classica e Italianistica - Università di Bologna">
+    <meta name="DC.Contributor" content="Anselmo Coluccia">
+    <meta name="DC.Date" content="09/12/2021">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS">
+    <link rel="DC.Identifier" href="https://github.com/AnselmoColucciaMattia/progetto/tree/main/sito-finale/sito%20-%20Copia/index">
+    <meta name="DC.Source" content="https://timeline.knightlab.com/">
+    <meta name="DC.Source" content="http://www.iccd.beniculturali.it/it/sigec-web">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation" content="https://www.museoarcheologicocastro.it/">
+    <meta name="DC.Coverage" content="http://vocab.getty.edu/page/tgn/7044369">
+    <meta name="DC.Rights" content="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+
+    <!--titolo risorsa finestra browser-->
+    <title>MAR - Museo Archeologico di Castro</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Customized CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <!--Google Font Trirong-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+<!--BODY-->
+
+<body>
+    <!--HEADER-->
+    <header>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+            <div class="contenitore-logo-titolo">
+                <a class="navbar-brand logo" href="index.html"><img src="img/index/logo.png" alt="logo del progetto"></a>
+                <a class="navbar-brand titolonav" href="index.html"><b>MUSEO ARCHEOLOGICO di CASTRO</b></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle esplora-1" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Esplora
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="ViaggioEnea.html">Viaggio di Enea</a>
+                            <a class="dropdown-item" href="LTempo.html">Linea del tempo</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Approfondisci
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Le recenti scoperte dell'Archeologia a Castro</a>
+                            <a class="dropdown-item" href="#">Castro, Atena, Enea (e Francesco D'Andria)</a>
+                            <a class="dropdown-item" href="#">Un geologo umanista</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!--ITEMS-->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 pt-3">
+                <h2 class="text-dark text-center padding-titolo-1">Catalogo</h2>
+            </div>
+        </div>
+
+        <!--BREADCRUMB-->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Linea del tempo</li>
+            </ol>
+        </nav>
+        <!-- filtri -->
+        <!-- ordina la lista -->
+        <div class="checkbox-container">
+            <h5 class="mb-0"><span class="aside-lista">Riordina la lista:</span></h5>
+            <div class="btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-outline-secondary active mt-1">
+          <input type="radio" checked> A-Z
+        </label>
+                <label class="btn btn-outline-secondary mt-1">
+          <input type="radio"> Ordine cronologico
+        </label>
+            </div>
+        </div>
+
+        <!-- filtra la lista -->
+        <div class="checkbox-container mt-4">
+            <h5 class="mb-0"><span class="aside-lista">Filtra la lista:</span></h5>
+            <!-- dropdown menu -->
+            <div class="dropdown dropright mt-1">
+                <button class="btn bottone-ligthblue dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Autori
+                </button>
+                <div class="dropdown-menu filtri1 p-3">
+                    <!-- checkbox -->
+                    <input type="radio">
+                    <label>...</label><br>
+                    <input type="radio">
+                    <label>...</label><br>
+                    <input type="radio">
+                    <label>...</label><br>
+                </div>
+            </div>
+
+            <div class="dropdown dropright mt-1">
+                <button class="btn bottone-navyblue dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Secolo
+                </button>
+                <div class="dropdown-menu filtri2 p-3">
+                    <!-- checkbox -->
+                    <input type="radio">
+                    <label>XIII</label><br>
+                    <input type="radio">
+                    <label>XIV</label><br>
+                    <input type="radio">
+                    <label>XV</label><br>
+                    <input type="radio">
+                    <label>XVI</label><br>
+                    <input type="radio">
+                    <label>XX</label><br>
+                </div>
+            </div>
+
+            <!--sezione esplorazione tutti items catalogati-->
+            <!--tab-->
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-tabs mt-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" title="Tutti gli oggetti catalogati">Tutto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" title="Solo sculture catalogate">Reperti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" title="Solo fotografie catalogate">Fotografie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" title="Solo testi catalogati">Fonti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Prima row item-->
+            <div class="row">
+
+                <div class="col-md-4 mt-4 colonna-items">
+                    <div class="card item catalogo">
+                        <span class="ml-2 mt-2 p-2"><a href="img/catalogo/Immagine19.jpg" target="_blank"
+                        title="Vedi tutte le immagini del catalogo"><i class="bi bi-image"
+                         style="font-size: 25px;"></i></a></span>
+                        <img src="img/catalogo/Immagine19.jpg" class="card-img-top" alt="Foto di Castro">
+                        <div class="card-body">
+                            <a href="item-foto.html">
+                                <h5 class="card-title">Antiche fotografie di Castro</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-4 colonna-items">
+                    <div class="card item catalogo">
+                        <span class="ml-2 mt-2 p-2"><a href="img/catalogo/museo-archeologico-di-castro-2.jpg" target="_blank"
+                        title="Vedi tutte le immagini del catalogo"><i class="bi bi-image"
+                         style="font-size: 25px;"></i></a></span>
+                        <img src="img/catalogo/museo-archeologico-di-castro-2.jpg" class="card-img-top" alt="Antichi vasi ellenici">
+                        <div class="card-body">
+                            <h5 class="card-title">Vasi ellenici del V sec</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-4 colonna-items">
+                    <div class="card item catalogo">
+                        <span class="ml-2 mt-2 p-2"><a href="img/catalogo/museo-archeologico-di-castro-24.jpg" target="_blank"
+                        title="Vedi tutte le immagini del catalogo"><i class="bi bi-image"
+                        style="font-size: 25px;"></i></a></span>
+                        <img src="img/catalogo/museo-archeologico-di-castro-24.jpg" class="card-img-top" alt="Busto statua di Minerva">
+                        <div class="card-body">
+                            <h5 class="card-title">Statua colossale di Minerva</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--seconda row items-->
+            <div class="row">
+
+                <div class="col-md-4 mt-4 colonna-items">
+                    <div class="card item catalogo">
+                        <span class="ml-2 mt-2 p-2"><a href="img/catalogo/museo-archeologico-di-castro-37.jpg" target="_blank"
+                        title="Vedi tutte le immagini del catalogo"><i class="bi bi-camera-fill"
+                        style="font-size: 25px;"></i></a></span>
+                        <img src="img/catalogo/museo-archeologico-di-castro-37.jpg" class="card-img-top" alt="statuetta di bronzo raffigurante Minerva">
+                        <div class="card-body">
+                            <h5 class="card-title">Statuetta di bronzo raffigurante la dea Minerva</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-4 colonna-items">
+                    <div class="card item catalogo">
+                        <span class="ml-2 mt-2 p-2"><a href="img/item-libro/perotti.jpg" target="_blank"
+                        title="Vedi tutte le immagini del catalogo"><i class="bi bi-image"
+                        style="font-size: 25px;"></i></a></span>
+                        <img src="img/item-libro/perotti.jpg" class="card-img-top" alt="copertina libro su Castro">
+                        <div class="card-body">
+                            <a href="item-libro.html">
+                                <h5 class="card-title">Castro, ultima terra di poesia</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-4 colonna-items">
+                    <div class="card item catalogo">
+                        <span class="ml-2 mt-2 p-2"><a href="img/catalogo/monete.jpg" target="_blank"
+                        title="Vedi tutte le immagini del catalogo"><i class="bi bi-image"
+                        style="font-size: 25px;"></i></a></span>
+                        <img src="img/catalogo/monete.jpg" class="card-img-top" alt="Antiche monete">
+                        <div class="card-body">
+                            <h5 class="card-title">Collezione di monete antiche</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--terza row items-->
+        <div class="row">
+
+            <div class="col-md-4 mt-4 colonna-items">
+                <div class="card item catalogo">
+                    <span class="ml-2 mt-2 p-2"><a href="img/catalogo/punte.jpg" target="_blank"
+                    title="Vedi tutte le immagini del catalogo"><i class="bi bi-camera-fill"
+                    style="font-size: 25px;"></i></a></span>
+                    <img src="img/catalogo/punte.jpg" class="card-img-top" alt="Punte di freccia">
+                    <div class="card-body">
+                        <h5 class="card-title">Punte di freccia</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-4 colonna-items">
+                <div class="card item catalogo">
+                    <span class="ml-2 mt-2 p-2"><a href="img/catalogo/Egnazia-Affreschi-Messapici-Cavaliere.jpg" target="_blank"
+                    title="Vedi tutte le immagini del catalogo"><i class="bi bi-image"
+                    style="font-size: 25px;"></i></a></span>
+                    <img src="img/catalogo/Egnazia-Affreschi-Messapici-Cavaliere.jpg" class="card-img-top" alt="Dipinto messapico di cavaliere">
+                    <div class="card-body">
+                        <h5 class="card-title">Dipinto messapico di cavaliere</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-4 colonna-items">
+                <div class="card item catalogo">
+                    <span class="ml-2 mt-2 p-2"><a href="img/catalogo/anello.jpg" target="_blank"
+                    title="Vedi tutte le immagini del catalogo"><i class="bi bi-image"
+                    style="font-size: 25px;"></i></a></span>
+                    <img src="img/catalogo/anello.jpg" class="card-img-top" alt="Anello antico">
+                    <div class="card-body">
+                        <h5 class="card-title">Antico anello ellenico</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!--row PAGINATION-->
+
+        <div class="col-md-12">
+
+            <nav aria-label="nav-pagination center ">
+                <ul class="pagination scorri-pagine">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item " aria-current="page">
+                        <a class="page-link active" href="#">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--FOOTER-->
+        <footer>
+
+            <div class="container-fluid footer">
+
+                <div class="row-footer">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <p class="firma1 trirong"><em><b>Museo Archeologico di Castro</b></em></p>
+                        <p>Il MAR di Castro racconta vicende che si svolgono lungo vari millenni, sin dalla più remota Preistoria
+                        </p>
+                        <p><a href="#" class="text-dark"><u>Scopri di più sul progetto</u></a></p>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 center">
+                        <span class="logo-footer center"><img src="img/index/logo.png" alt="logo del progetto"></span>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <p class="firma2" id="credits-footer">&copy; Anselmo Coluccia</p>
+                        <p>Italianistica, Università di Bologna, 2021-2022</p>
+                        <p><a href="#" class="text-dark"><u>Contatti</u></a></p>
+                    </div>
+
+                </div>
+
+                <div class="row-footer mt-10">
+                    <div class="col-md-12 col-sm-12 col-xs-12 center">
+                        <u><a href="https://creativecommons.org/licenses/by-nc/4.0/" class="text-dark">Licenza Creative Commons BY -
+                        NC 4.0 International</a></u>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

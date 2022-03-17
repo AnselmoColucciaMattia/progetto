@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Castro, ultima terra di poesia</title>
+				<author xml:id="AP">Armando Perotti</author>
+				<editor role="editor" xml:id="MP">Michele Paone</editor>
+			<respStmt>
+				<resp>Marcatura</resp>
+				<name xml:id="AC">Anselmo Coluccia</name>						
+			</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Ficlit - Dipartimento di Filologia Classica e Italianistica</publisher>
+				<pubPlace>Bologna</pubPlace>
+				<date when="2021"/>
+				<availability>
+					<p>Available under licence only</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+				 <monogr>
+				  <author>Armando Perotti</author>
+				  <editor>Michele Paone</editor>
+				  <title>Castro, ultima terra di poesia</title>
+				  <edition>Prima edizione</edition>
+				  <imprint>
+				   <publisher>Editrice Salentina</publisher>
+				   <pubPlace>Galatina</pubPlace>
+				   <date>1990</date>
+				  </imprint>
+				 </monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Marcatura riguradante luoghi, date e corsivi.</p>
+		</encodingDesc>
+		<profileDesc>
+		 <langUsage>
+		  <language ident="it">Italian</language>
+		 </langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<!--sezioni da 1 a 15 qui-->
+			<div1 type="part">
+				<head>
+					<hi rend="italic">Figure e vicende di Castro</hi>
+				</head>			
+				<div2 type="chapter" n="15">
+					<head>XV. <q rend="italic">Cronache tristi</q></head>
+					<div3 type="subsection" n="15.1">
+						<p><name type="city" resp="#AC" xml:id="CA">Castro</name>, in terra d’<name type="city" resp="#AC" xml:id="OT">Otranto</name> fu proprio la sentinella avanzata d’<name type="country" resp="#AC" xml:id="IT">Italia</name> contro il nemico infedele.</p>
+						<p>Men famosa di <name type="city" resp="#AC" xml:id="OT">Otranto</name>, fu più di questa duramente provata. </p>
+						<p>Morì nel <date resp="#AC" when="1575">1575</date>, quattro anni dopo <name type="city" resp="#AC" xml:id="LE">Lepanto</name>; ma la sua storia è tutta di sangue. Il vescovado la abbandonò nel <date resp="#AC" when="1537">1537</date>; le fu tolto alla fine del secolo <date resp="#AC" when="XVIIIsec">XVIII</date>.</p>
+						<p><q rend="italic">Oggi è un villaggio di pescatori, ancor chiuso nel cerchio delle cadenti muraglie.</q></p>
+						<p><q rend="italic">Ultima terra di poesia</q></p>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>
